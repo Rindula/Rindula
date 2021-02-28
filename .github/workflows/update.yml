@@ -17,7 +17,7 @@ jobs:
       - name: Create README
         run: |
           echo '### About Me' > README.md
-          echo "My name is Sven Nolting. I'm currently $AGE years old." > README.md
+          echo "My name is Sven Nolting. I\'m currently $AGE years old." > README.md
           echo '### Programming Languages' > README.md
           echo 'I\'m a German Developer. My main Programming languages are PHP and Python, but I\'m basicly doing Webdevelopment and automations.' >> README.md
           echo 'Therefore I have some experience with JavaScript too.' >> README.md
