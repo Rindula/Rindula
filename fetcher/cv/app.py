@@ -21,8 +21,7 @@ for l in listelements:
 with open("../../README.md", "r") as f:
     readme = f.read()
 
-readme.replace("cv_replace_var", '\n'.join(elements))
-print(readme)
+readme = readme.replace("cv_replace_var", '\n'.join(elements))
 
 with open("../../README.md", "w") as f:
     f.write(readme)
