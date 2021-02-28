@@ -19,9 +19,10 @@ for l in listelements:
     elements.append(f"- {timespan} - {title} ({employer})")
 
 with open("../../README.md", "r") as f:
-    README = f.read()
+    readme = f.read()
 
-README.replace("cv_replace_var", '\n'.join(elements))
+readme.replace("cv_replace_var", '\n'.join(elements))
+print(readme)
 
 with open("../../README.md", "w") as f:
-    f.write(README)
+    f.write(readme)
