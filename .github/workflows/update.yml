@@ -1,0 +1,33 @@
+name: Update README
+on:
+  scheduele:
+    - cron: 0 * * * *
+
+jobs:
+  update:
+    name: Update README
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - name: Calculate Variables
+        run: |
+          datediff() {     d1=$(date -d "$1" +%s);     d2=$(date -d "$2" +%s);     echo $(( (d1 - d2) / 86400 / (36525 / 100))); }
+          echo "AGE=$(datetiff 'now' '13 Jul 2000')" >> $GITHUB_ENV
+      - name: Create README
+        runs: |
+          echo '### About Me' > README.md
+          echo "My name is Sven Nolting. I'm currently $AGE years old." > README.md
+          echo '### Programming Languages' > README.md
+          echo 'I\'m a German Developer. My main Programming languages are PHP and Python, but I\'m basicly doing Webdevelopment and automations.' >> README.md
+          echo 'Therefore I have some experience with JavaScript too.' >> README.md
+          echo '### Frameworks' >> README.md
+          echo 'I have advanced knowledge with the CakePHP Framework since version 3 and some basic knowledge in version 2.' >> README.md
+          echo 'Recently I started to learn the basics of Symfony.' >> README.md
+          echo 'I also have some basic knowledge with Processwire.' >> README.md
+          echo '### 📫 How to reach me:' >> README.md
+          echo '  - 📧 contact@rindula.de' >> README.md
+      - name: Update README
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: Rindula
+          author_email: Rindula@users.noreply.github.com
