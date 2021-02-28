@@ -15,7 +15,7 @@ jobs:
           echo '### 👋 About Me' > README.md
           datediff() {     d1=$(date -d "$1" +%s);     d2=$(date -d "$2" +%s);     echo $(( (d1 - d2) / 86400 / (36525 / 100))); }; AGE=$(datediff 'now' '13 Jul 2000'); echo "My name is Sven Nolting. I am currently $AGE years old." >> README.md
           echo '### 💬 Programming Languages' >> README.md
-          echo 'I am a German Developer. My main Programming languages are PHP and Python, but I am basicly doing Webdevelopment and automations.' >> README.md
+          echo 'I am a german developer. My main programming languages are PHP and Python, but I am basicly doing Webdevelopment and automations.' >> README.md
           echo 'Therefore I have some experience with JavaScript too.' >> README.md
           echo '### 💻Frameworks' >> README.md
           echo 'I have advanced knowledge with the CakePHP Framework since version 3 and some basic knowledge in version 2.' >> README.md
