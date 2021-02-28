@@ -14,7 +14,7 @@ jobs:
           datediff() {     d1=$(date -d "$1" +%s);     d2=$(date -d "$2" +%s);     echo $(( (d1 - d2) / 86400 / (36525 / 100))); }
           echo "AGE=$(datetiff 'now' '13 Jul 2000')" >> $GITHUB_ENV
       - name: Create README
-        runs: |
+        run: |
           echo '### About Me' > README.md
           echo "My name is Sven Nolting. I'm currently $AGE years old." > README.md
           echo '### Programming Languages' > README.md
