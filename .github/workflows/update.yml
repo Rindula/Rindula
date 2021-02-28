@@ -1,6 +1,6 @@
 name: Update README
 on:
-  scheduele:
+  schedule:
     - cron: 0 * * * *
 
 jobs:
