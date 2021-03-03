@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Create README
         run: |
-          echo '### 👋 About Me' > README.md
+          echo '### 👋 Über mich' > README.md
           datediff() {     d1=$(date -d "$1" +%s);     d2=$(date -d "$2" +%s);     echo $(( (d1 - d2) / 86400 / (36525 / 100))); }; AGE=$(datediff 'now' '13 Jul 2000'); echo "Mein Name ist Sven Nolting. Ich bin ein deutscher Entwickler und aktuell $AGE Jahre alt." >> README.md
           echo '### 📑 Erfahrung' >> README.md
           echo 'cv_replace_var' >> README.md
