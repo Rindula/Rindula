@@ -14,10 +14,10 @@ listelements = cvi[0].getchildren()
 elements = []
 
 for l in listelements:
-    title = translator.translate(l.xpath(".//h4/text()")[0], src='de', dest='en').text
+    title = translator.translate(l.xpath(".//h4/text()")[0]).text
     ps = l.xpath(".//p/descendant-or-self::*/text()")
     employer = ps[-1]
-    timespan = translator.translate(''.join(ps[0:-1]), src='de', dest='en').text
+    timespan = translator.translate(''.join(ps[0:-1])).text
     elements.append(f"- {timespan} - {title} ({employer})")
 
 with open("../../README.md", "r") as f:
