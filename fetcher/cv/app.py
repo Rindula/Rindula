@@ -1,7 +1,9 @@
 import requests
 from lxml import html
+from googletrans import Translator
 # Fetch CV from Xing
 
+translator = Translator()
 resp = requests.get("https://www.xing.com/profile/Sven_Nolting3")
 
 tree = html.fromstring(resp.content)
@@ -12,10 +14,10 @@ listelements = cvi[0].getchildren()
 elements = []
 
 for l in listelements:
-    title = l.xpath(".//h4/text()")[0]
+    title = translator.translate(l.xpath(".//h4/text()")[0], src='de', dest='en').text
     ps = l.xpath(".//p/descendant-or-self::*/text()")
     employer = ps[-1]
-    timespan = ''.join(ps[0:-1])
+    timespan = translator.translate(''.join(ps[0:-1]), src='de', dest='en').text
     elements.append(f"- {timespan} - {title} ({employer})")
 
 with open("../../README.md", "r") as f:

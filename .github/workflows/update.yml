@@ -12,19 +12,23 @@ jobs:
       - uses: actions/checkout@v2
       - name: Create README
         run: |
-          echo '### 👋 Über mich' > README.md
-          datediff() {     d1=$(date -d "$1" +%s);     d2=$(date -d "$2" +%s);     echo $(( (d1 - d2) / 86400 / (36525 / 100))); }; AGE=$(datediff 'now' '13 Jul 2000'); echo "Mein Name ist Sven Nolting. Ich bin ein deutscher Entwickler und aktuell $AGE Jahre alt." >> README.md
-          echo '### 📑 Erfahrung' >> README.md
+          echo '### 👋 About Me' > README.md
+          datediff() {     d1=$(date -d "$1" +%s);     d2=$(date -d "$2" +%s);     echo $(( (d1 - d2) / 86400 / (36525 / 100))); }; AGE=$(datediff 'now' '13 Jul 2000'); echo "My name is Sven Nolting. I'm a german developer at the age of $AGE years." >> README.md
+          echo '### 📑 Experience' >> README.md
+          echo '(Automaticly translated from [Xing](https://www.xing.com/profile/Sven_Nolting3) by Google Translate)' >> README.md
+          echo '' >> README.md
           echo 'cv_replace_var' >> README.md
           echo '### 💬 Programming Languages' >> README.md
-          echo 'Die Programmiersprachen in denen ich größtenteils Programmiere sind PHP und Python, aber grundsetzlich bin ich im Webentwicklungsbereich tätig.' >> README.md
-          echo 'Deshalb habe ich natürlich auch Erfahrung mit JavaScript, CSS, etc.' >> README.md
-          echo 'In Python programmiere ich größtenteils automatisierungen, um sich immer wiederholende Aufgaben zu automatisieren. So beispielsweise diese Information. Das Alter aktualisiert sich an meinem Geburtstag und meine Erfahrungen werden von meinem [Xingprofil](https://www.xing.com/profile/Sven_Nolting3) gelesen' >> README.md
-          echo '### 💻Frameworks' >> README.md
-          echo 'Ich habe fortgeschrittene Erfahrung mit dem CakePHP Framework in den Versionen 3 und 4, sowie grundlegende Erfahrung mit der Version 2' >> README.md
-          echo 'Erst kürzlich habe ich angefangen mir Symfony etwas näher zu bringen.' >> README.md
-          echo 'Auch mit Vue hab ich bereits einiges an erfahrung gesammelt.' >> README.md
-          echo '### 📫 Kontakt:' >> README.md
+          echo '- PHP' >> README.md
+          echo '- Python' >> README.md
+          echo '- JavaScript' >> README.md
+          echo '- Java' >> README.md
+          echo '### 💻Experience with Frameworks' >> README.md
+          echo '- CakePHP (2) [basic]' >> README.md
+          echo '- CakePHP (3 & 4) [advanced]' >> README.md
+          echo '- Symfony [basic]' >> README.md
+          echo '- Vue [basic]' >> README.md
+          echo '### 📫 Contact:' >> README.md
           echo '  - 📧 contact@rindula.de' >> README.md
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
