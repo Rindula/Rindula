@@ -19,10 +19,10 @@ jobs:
           echo '' >> README.md
           echo 'cv_replace_var' >> README.md
           echo '### 💬 Programming Languages' >> README.md
-          echo '- PHP' >> README.md
-          echo '- Python' >> README.md
-          echo '- JavaScript' >> README.md
-          echo '- Java' >> README.md
+          echo '- PHP [advanced]' >> README.md
+          echo '- Python [advanced]' >> README.md
+          echo '- JavaScript [basic-advanced]' >> README.md
+          echo '- Java [basic]' >> README.md
           echo '### 💻Experience with Frameworks' >> README.md
           echo '- CakePHP (2) [basic]' >> README.md
           echo '- CakePHP (3 & 4) [advanced]' >> README.md
