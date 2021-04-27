@@ -13,7 +13,7 @@ jobs:
       - name: Create README
         run: |
           echo '### 👋 About Me' > README.md
-          datediff() {     d1=$(date -d "$1" +%s);     d2=$(date -d "$2" +%s);     echo $(( (d1 - d2) / 86400 / (36525 / 100))); }; AGE=$(datediff 'now' '13 Jul 2000'); echo "My name is Sven Nolting. I'm a german developer at the age of $AGE years." >> README.md
+          datediffdays() {     d1=$(date -d "$1" +%s);     d2=$(date -d "$2" +%s);     echo $(( (d1 - d2) / 86400 )); }; datediff() {     d1=$(date -d "$1" +%s);     d2=$(date -d "$2" +%s);     echo $(( (d1 - d2) / 86400 / (36525 / 100))); }; AGE=$(datediff 'now' '13 Jul 2000'); AGED=$(datediffdays 'now' '13 Jul 2000'); echo "My name is Sven Nolting. I'm a german developer at the age of $AGE years ($AGED days)." >> README.md
           echo '### 📑 Experience' >> README.md
           echo '(Automaticly translated from [Xing](https://www.xing.com/profile/Sven_Nolting3) by Google Translate)' >> README.md
           echo '' >> README.md
