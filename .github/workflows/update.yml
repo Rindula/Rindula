@@ -23,6 +23,7 @@ jobs:
           echo '- Python [advanced]' >> README.md
           echo '- JavaScript [basic-advanced]' >> README.md
           echo '- Java [basic]' >> README.md
+          echo 'Java and JavaScript are not the same! Keep that in mind!' >> README.md
           echo '### 💻Experience with Frameworks' >> README.md
           echo '- CakePHP (2) [basic]' >> README.md
           echo '- CakePHP (3 & 4) [advanced]' >> README.md
@@ -30,6 +31,8 @@ jobs:
           echo '- Vue [basic]' >> README.md
           echo '### 📫 Contact:' >> README.md
           echo '  - 📧 contact@rindula.de' >> README.md
+          echo '### 💸 Support me' >> README.md
+          echo '[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U74OYFS)' >> README.md
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
         with:
