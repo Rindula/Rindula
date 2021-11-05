@@ -46,5 +46,4 @@ jobs:
       - name: Update README
         uses: EndBug/add-and-commit@v7
         with:
-          author_name: Rindula
-          author_email: Rindula@users.noreply.github.com
+          default_author: github_actions
