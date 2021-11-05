@@ -1,6 +1,7 @@
 import requests
 from lxml import html
 from googletrans import Translator
+from datetime import date
 # Fetch CV from Xing
 
 translator = Translator()
@@ -23,7 +24,10 @@ for l in listelements:
 with open("../../README.md", "r") as f:
     readme = f.read()
 
+today = date.today()
+
 readme = readme.replace("cv_replace_var", '\n'.join(elements))
+readme = readme.replace("age_years", today.year - born.year - ((today.month, today.day) < (born.month, born.day)))
 
 with open("../../README.md", "w") as f:
     f.write(readme)
