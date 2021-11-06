@@ -25,6 +25,7 @@ with open("../../README.md", "r") as f:
     readme = f.read()
 
 today = date.today()
+born = datetime.date(2000,7,13)
 
 readme = readme.replace("cv_replace_var", '\n'.join(elements))
 readme = readme.replace("age_years", today.year - born.year - ((today.month, today.day) < (born.month, born.day)))
