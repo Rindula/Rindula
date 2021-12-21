@@ -1,5 +1,5 @@
 ### 👋 About Me
-My name is Sven Nolting. I'm a german developer at the age of 21 years (7830 days).
+My name is Sven Nolting. I'm a german developer at the age of 21 years (7831 days).
 ### 📑 Experience
 (Automaticly translated from [Xing](https://www.xing.com/profile/Sven_Nolting3) by Google Translate)
 
@@ -7,7 +7,7 @@ My name is Sven Nolting. I'm a german developer at the age of 21 years (7830 day
 - 2 months, Aug. 2019 - Sep. 2019 - trainee (Hochwarth IT GmbH)
 - 2 months, July 2018 - August 2018 - Web developer (Hochwarth IT GmbH)
 ### 💬 Programming Languages
-- PHP [advanced]
+- PHP [advanced-pro]
 - Python [advanced]
 - JavaScript [basic-advanced]
 - Java [basic]
@@ -16,7 +16,7 @@ Java and JavaScript are not the same! Keep that in mind!
 - CakePHP (2) [basic]
 - CakePHP (3 & 4) [advanced]
 - Symfony [basic]
-- Vue [basic]
+- Vue [advanced]
 ### 📫 Contact:
   - 📧 contact@rindula.de
 ### 💸 Support me
