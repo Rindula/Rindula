@@ -8,7 +8,7 @@ import json
 translator = Translator()
 resp = requests.get("https://www.xing.com/profile/Sven_Nolting3")
 
-json_data = resp.content.split("APOLLO_STATE=")[1].split(";")[0]
+json_data = resp.text.split("APOLLO_STATE=")[1].split(";")[0]
 resp_data = json.loads(json_data)
 
 listelements = []
