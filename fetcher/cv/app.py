@@ -16,17 +16,20 @@ listelements = []
 i = 0
 while (True):
     try:
-        listelements.append(resp_data['ROOT_QUERY']['$ROOT_QUERY.profileWorkExperience({"profileId":"Sven_Nolting3"}).collection.'.i])
+        listelements.append(resp_data['ROOT_QUERY']['$ROOT_QUERY.profileWorkExperience({"profileId":"Sven_Nolting3"}).collection.'+str(i)])
     except:
         break
     i += 1
 
 elements = []
 
+print(listelements)
+print("::group::Elemente")
 for l in listelements:
+    print(l)
     title = translator.translate(l["jobTitle"]).text
     elements.append(f"- {l['localizedTimeString']} - {title} ({l['companyName']})")
-
+print("::endgroup::")
 today = date.today()
 born = date.fromisoformat("2000-07-13")
 with open("../../README.md", "r") as f:
