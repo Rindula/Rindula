@@ -3,9 +3,7 @@ My name is Sven Nolting. I'm a german developer at the age of 21 years (7854 day
 ### 📑 Experience
 (Automaticly translated from [Xing](https://www.xing.com/profile/Sven_Nolting3) by Google Translate)
 
-- Til today - Junior backend developer / trainee ( 2 Jahre und 4 Monate, seit Okt. 2019)
--  - trainee (2 Monate, Aug. 2019 - Sep. 2019)
--  - web developer (2 Monate, Juli 2018 - Aug. 2018)
+
 ### 💬 Programming Languages
 - PHP [advanced-pro]
 - Python [advanced]
