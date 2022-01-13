@@ -16,7 +16,7 @@ listelements = []
 i = 0
 while (True):
     try:
-        listelements.append(resp_data['ROOT_QUERY']['$ROOT_QUERY.profileWorkExperience({"profileId":"Sven_Nolting3"}).collection.'+str(i)])
+        listelements.append(resp_data['$ROOT_QUERY.profileWorkExperience({"profileId":"Sven_Nolting3"}).collection.'+str(i)])
     except:
         break
     i += 1

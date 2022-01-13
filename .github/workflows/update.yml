@@ -27,7 +27,7 @@ jobs:
           echo '### 💻Experience with Frameworks' >> README.md
           echo '- CakePHP (2) [basic]' >> README.md
           echo '- CakePHP (3 & 4) [advanced]' >> README.md
-          echo '- Symfony [basic]' >> README.md
+          echo '- Symfony [advanced]' >> README.md
           echo '- Vue [advanced]' >> README.md
           echo '### 📫 Contact:' >> README.md
           echo '  - 📧 contact@rindula.de' >> README.md
