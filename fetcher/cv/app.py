@@ -6,7 +6,7 @@ import json
 # Fetch CV from Xing
 
 translator = Translator()
-resp = requests.get("https://www.xing.com/profile/Sven_Nolting3", headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36'})
+resp = requests.get("https://www.xing.com/profile/Sven_Nolting3", headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36'})
 
 json_data = resp.text.split("APOLLO_STATE=")[1].split(";")[0]
 resp_data = json.loads(json_data)
