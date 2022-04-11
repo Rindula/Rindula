@@ -19,15 +19,15 @@ jobs:
           echo '' >> README.md
           echo 'cv_replace_var' >> README.md
           echo '### 💬 Programming Languages' >> README.md
-          echo '- PHP [advanced-pro]' >> README.md
-          echo '- Python [advanced]' >> README.md
-          echo '- JavaScript [basic-advanced]' >> README.md
-          echo '- Java [basic]' >> README.md
+          echo '- PHP [advanced - pro]' >> README.md
+          echo '- Python [advanced - pro]' >> README.md
+          echo '- JavaScript [basic - advanced]' >> README.md
+          echo '- Java [none - basic]' >> README.md
           echo 'Java and JavaScript are not the same! Keep that in mind!' >> README.md
           echo '### 💻Experience with Frameworks' >> README.md
           echo '- CakePHP (2) [basic]' >> README.md
           echo '- CakePHP (3 & 4) [advanced]' >> README.md
-          echo '- Symfony [advanced]' >> README.md
+          echo '- Symfony [pro]' >> README.md
           echo '- Vue [advanced]' >> README.md
           echo '### 📫 Contact:' >> README.md
           echo '  - 📧 contact@rindula.de' >> README.md
