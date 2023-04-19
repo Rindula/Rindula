@@ -29,8 +29,6 @@ jobs:
           echo '- CakePHP (3 & 4) [advanced]' >> README.md
           echo '- Symfony [pro]' >> README.md
           echo '- Vue [advanced]' >> README.md
-          echo '### 📫 Contact:' >> README.md
-          echo '  - 📧 contact@rindula.de' >> README.md
           echo '### 💸 Support me' >> README.md
           echo '[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U74OYFS)' >> README.md
       - name: Set up Python 3.8
