@@ -18,7 +18,5 @@ Java and JavaScript are not the same! Keep that in mind!
 - CakePHP (3 & 4) [advanced]
 - Symfony [pro]
 - Vue [advanced]
-### 📫 Contact:
-  - 📧 contact@rindula.de
 ### 💸 Support me
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U74OYFS)
