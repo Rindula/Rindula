@@ -1,9 +1,9 @@
 ### 👋 About Me
-My name is Sven Nolting. I'm a german developer at the age of 22 years (8357 days).
+My name is Sven Nolting. I'm a german developer at the age of 22 years (8358 days).
 ### 📑 Experience
 (Automaticly translated from [Xing](https://www.xing.com/profile/Sven_Nolting3) by Google Translate)
 
-- **Bis heute** 11 Monate, seit Juli 2022 - Backend Developer (Hochwarth IT GmbH)
+- **Bis heute** 1 Jahr, seit Juli 2022 - Backend Developer (Hochwarth IT GmbH)
 - 2 Jahre und 10 Monate, Okt. 2019 - Juli 2022 - Junior backend developer / Azubi (Hochwarth IT GmbH)
 - 2 Monate, Aug. 2019 - Sep. 2019 - Trainee (Hochwarth IT GmbH)
 - 2 Monate, Juli 2018 - Aug. 2018 - web developer (Hochwarth IT GmbH)
