@@ -1,5 +1,5 @@
 ### 👋 About Me
-My name is Sven Nolting. I'm a german developer at the age of 23 years (8405 days).
+My name is Sven Nolting. I'm a german developer at the age of 23 years (8407 days).
 ### 📑 Experience
 (Automaticly translated from [Xing](https://www.xing.com/profile/Sven_Nolting3) by Google Translate)
 
@@ -18,5 +18,7 @@ Java and JavaScript are not the same! Keep that in mind!
 - CakePHP (3 & 4) [advanced]
 - Symfony [pro]
 - Vue [advanced]
+### 🤮 Things I absolutely hate to do
+- MSSQL
 ### 💸 Support me
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U74OYFS)
