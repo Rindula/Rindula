@@ -21,6 +21,7 @@ jobs:
           echo '### 💬 Programming Languages' >> README.md
           echo '- PHP [advanced - pro]' >> README.md
           echo '- Python [advanced - pro]' >> README.md
+          echo '- Go [beginner]' >> README.md
           echo '- JavaScript [basic - advanced]' >> README.md
           echo '- Java [none - basic]' >> README.md
           echo 'Java and JavaScript are not the same! Keep that in mind!' >> README.md
