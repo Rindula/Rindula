@@ -19,17 +19,17 @@ jobs:
           echo '' >> README.md
           echo 'cv_replace_var' >> README.md
           echo '### 💬 Programming Languages' >> README.md
-          echo '- PHP [advanced - pro]' >> README.md
+          echo '- PHP [pro]' >> README.md
           echo '- Python [advanced - pro]' >> README.md
           echo '- Go [beginner]' >> README.md
-          echo '- JavaScript [basic - advanced]' >> README.md
+          echo '- JavaScript [advanced]' >> README.md
           echo '- Java [none - basic]' >> README.md
           echo 'Java and JavaScript are not the same! Keep that in mind!' >> README.md
           echo '### 💻Experience with Frameworks' >> README.md
           echo '- CakePHP (2) [basic]' >> README.md
           echo '- CakePHP (3 & 4) [advanced]' >> README.md
           echo '- Symfony [pro]' >> README.md
-          echo '- Vue [advanced]' >> README.md
+          echo '- ~~Vue [advanced]~~' >> README.md
           echo '### 🤮 Things I absolutely hate to do' >> README.md
           echo '- MSSQL' >> README.md
           echo '### 💸 Support me' >> README.md
