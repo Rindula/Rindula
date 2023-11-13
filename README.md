@@ -8,17 +8,17 @@ My name is Sven Nolting. I'm a german developer at the age of 23 years (8523 day
 - 2 Monate, Aug. 2019 - Sep. 2019 - Trainee (Hochwarth IT GmbH)
 - 2 Monate, Juli 2018 - Aug. 2018 - web developer (Hochwarth IT GmbH)
 ### 💬 Programming Languages
-- PHP [advanced - pro]
+- PHP [pro]
 - Python [advanced - pro]
 - Go [beginner]
-- JavaScript [basic - advanced]
+- JavaScript [advanced]
 - Java [none - basic]
 Java and JavaScript are not the same! Keep that in mind!
 ### 💻Experience with Frameworks
 - CakePHP (2) [basic]
 - CakePHP (3 & 4) [advanced]
 - Symfony [pro]
-- Vue [advanced]
+- ~~Vue [advanced]~~
 ### 🤮 Things I absolutely hate to do
 - MSSQL
 ### 💸 Support me
