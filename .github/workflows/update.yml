@@ -29,7 +29,7 @@ jobs:
           echo '- CakePHP (2) [basic]' >> README.md
           echo '- CakePHP (3 & 4) [advanced]' >> README.md
           echo '- Symfony [pro]' >> README.md
-          echo '- ~~Vue [advanced]~~' >> README.md
+          echo '- ~~Vue [basic]~~' >> README.md
           echo '### 🤮 Things I absolutely hate to do' >> README.md
           echo '- MSSQL' >> README.md
           echo '### 💸 Support me' >> README.md
