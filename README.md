@@ -1,6 +1,6 @@
 ### 👋 About Me
-My name is Sven Nolting. I'm a german developer at the age of age_years years (8919 days).
-cv_replace_var
+My name is Sven Nolting. I'm a german developer at the age of 24 years (8919 days).
+*Unable to load data*
 ### 💬 Programming Languages
 - PHP [pro]
 - Python [advanced - pro]
