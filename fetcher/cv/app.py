@@ -6,20 +6,20 @@ import json
 # Fetch CV from Xing
 
 translator = Translator()
-resp = requests.get("https://www.xing.com/profile/Sven_Nolting3", headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36'})
+#resp = requests.get("https://www.xing.com/profile/Sven_Nolting3", headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36'})
 
-json_data = resp.text.split("APOLLO_STATE=")[1].split(";")[0]
-resp_data = json.loads(json_data)
+#json_data = resp.text.split("APOLLO_STATE=")[1].split(";")[0]
+#resp_data = json.loads(json_data)
 
 listelements = []
 
 i = 0
-while (True):
-    try:
-        listelements.append(resp_data['ROOT_QUERY']['profileWorkExperience({"profileId":"Sven_Nolting3"})']['collection'][i])
-    except:
-        break
-    i += 1
+#while (True):
+#    try:
+#        listelements.append(resp_data['ROOT_QUERY']['profileWorkExperience({"profileId":"Sven_Nolting3"})']['collection'][i])
+#    except:
+#        break
+#    i += 1
 
 elements = []
 
