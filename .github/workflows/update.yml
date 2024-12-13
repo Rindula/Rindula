@@ -26,9 +26,9 @@ jobs:
           echo '- ~~Java [none - basic]~~' >> README.md
           echo 'Java and JavaScript are not the same! Keep that in mind!' >> README.md
           echo '### Databases' >> README.md
-          echo '- MariaDB / MySQL [advanced]'
-          echo '- PostgreSQL [beginner - advanced]'
-          echo '- CouchDB [beginner]'
+          echo '- MariaDB / MySQL [advanced]' >> README.md
+          echo '- PostgreSQL [beginner - advanced]' >> README.md
+          echo '- CouchDB [beginner]' >> README.md
           echo '### 💻Experience with Frameworks' >> README.md
           echo '- CakePHP (2) [basic]' >> README.md
           echo '- CakePHP (3 & 4) [advanced]' >> README.md
