@@ -38,16 +38,16 @@ jobs:
           echo '- MSSQL' >> README.md
           echo '### 💸 Support me' >> README.md
           echo '[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U74OYFS)' >> README.md
-#      - name: Set up Python 3.8
-#        uses: actions/setup-python@v4
-#        with:
-#            python-version: 3.8
-#      - name: Fetch CV
-#        working-directory: ./fetcher/cv/
-#        run: |
-#          python -m pip install --upgrade pip
-#          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-#          python app.py
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v4
+        with:
+            python-version: 3.8
+      - name: Fetch CV
+        working-directory: ./fetcher/cv/
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          python app.py
       - name: Update README
         uses: EndBug/add-and-commit@v9
         with:
