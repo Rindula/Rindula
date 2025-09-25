@@ -3,7 +3,7 @@ My name is Sven Nolting. I'm a german developer at the age of 25 years (9205 day
 
 ### 💬 Programming Languages
 - PHP [pro]
-- Python [advanced - pro]
+- Python [advanced]
 - Go [beginner]
 - JavaScript [advanced]
 - ~~Java [none - basic]~~
