@@ -20,7 +20,7 @@ jobs:
           echo 'cv_replace_var' >> README.md
           echo '### 💬 Programming Languages' >> README.md
           echo '- PHP [pro]' >> README.md
-          echo '- Python [advanced - pro]' >> README.md
+          echo '- Python [advanced]' >> README.md
           echo '- Go [beginner]' >> README.md
           echo '- JavaScript [advanced]' >> README.md
           echo '- ~~Java [none - basic]~~' >> README.md
