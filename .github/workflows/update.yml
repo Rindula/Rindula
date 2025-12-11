@@ -25,11 +25,11 @@ jobs:
           echo '- JavaScript [advanced]' >> README.md
           echo '- ~~Java [none - basic]~~' >> README.md
           echo 'Java and JavaScript are not the same! Keep that in mind!' >> README.md
-          echo '### Databases' >> README.md
+          echo '### 🗄️Databases' >> README.md
           echo '- MariaDB / MySQL [advanced]' >> README.md
           echo '- PostgreSQL [beginner - advanced]' >> README.md
           echo '- CouchDB [beginner]' >> README.md
-          echo '### Infrastructure' >> README.md
+          echo '### 🌐Infrastructure' >> README.md
           echo '- Docker [advanced]' >> README.md
           echo '- Kubernetes / k8s [beginner - advanced]' >> README.md
           echo '- Caddy Webserver [advanced]' >> README.md
