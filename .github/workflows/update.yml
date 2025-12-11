@@ -29,6 +29,10 @@ jobs:
           echo '- MariaDB / MySQL [advanced]' >> README.md
           echo '- PostgreSQL [beginner - advanced]' >> README.md
           echo '- CouchDB [beginner]' >> README.md
+          echo '### Infrastructure' >> README.md
+          echo '- Docker [advanced]' >> README.md
+          echo '- Kubernetes / k8s [beginner - advanced]' >> README.md
+          echo '- Caddy Webserver [advanced]' >> README.md
           echo '### 💻Experience with Frameworks' >> README.md
           echo '- CakePHP (2) [basic]' >> README.md
           echo '- CakePHP (3 & 4) [advanced]' >> README.md
