@@ -28,7 +28,7 @@ jobs:
           echo '### 🗄️Databases' >> README.md
           echo '- MariaDB / MySQL [advanced]' >> README.md
           echo '- PostgreSQL [beginner - advanced]' >> README.md
-          echo '- CouchDB [beginner]' >> README.md
+          echo '- ~~CouchDB [beginner]~~' >> README.md
           echo '### 🌐Infrastructure' >> README.md
           echo '- Docker [advanced]' >> README.md
           echo '- Kubernetes / k8s [beginner - advanced]' >> README.md
@@ -36,7 +36,7 @@ jobs:
           echo '### 💻Experience with Frameworks' >> README.md
           echo '- CakePHP (2) [basic]' >> README.md
           echo '- CakePHP (3 & 4) [advanced]' >> README.md
-          echo '- Symfony [pro]' >> README.md
+          echo '- Symfony 5.4 - 8 [pro]' >> README.md
           echo '- ~~Vue [basic]~~' >> README.md
           echo '### 🤮 Things I absolutely hate to do' >> README.md
           echo '- MSSQL' >> README.md
