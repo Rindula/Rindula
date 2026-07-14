@@ -14,7 +14,7 @@ Java and JavaScript are not the same! Keep that in mind!
 - ~~CouchDB [beginner]~~
 ### 🌐Infrastructure
 - Docker [advanced]
-- Kubernetes / k8s [beginner - advanced]
+- Kubernetes / k8s [advanced]
 - Caddy Webserver [advanced]
 ### 💻Experience with Frameworks
 - CakePHP (2) [basic]
