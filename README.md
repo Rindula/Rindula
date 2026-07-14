@@ -1,5 +1,5 @@
 ### 👋 About Me
-My name is Sven Nolting. I'm a german developer at the age of 26 years (9496 days).
+My name is Sven Nolting. I'm a german developer at the age of 26 years (9497 days).
 
 ### 💬 Programming Languages
 - PHP [pro]
