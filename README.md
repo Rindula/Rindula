@@ -1,5 +1,5 @@
 ### 👋 About Me
-My name is Sven Nolting. I'm a german developer at the age of 26 years (9497 days).
+My name is Sven Nolting. I'm a german developer at the age of 26 years (9498 days).
 
 ### 💬 Programming Languages
 - PHP [pro]
@@ -14,7 +14,7 @@ Java and JavaScript are not the same! Keep that in mind!
 - ~~CouchDB [beginner]~~
 ### 🌐Infrastructure
 - Docker [advanced]
-- Kubernetes / k8s [advanced]
+- Kubernetes / k3s [advanced]
 - Caddy Webserver [advanced]
 ### 💻Experience with Frameworks
 - CakePHP (2) [basic]
