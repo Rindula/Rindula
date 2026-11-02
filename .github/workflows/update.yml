@@ -24,7 +24,7 @@ jobs:
           echo '- Go [beginner]' >> README.md
           echo '- JavaScript [advanced]' >> README.md
           echo '- ~~Java [none - basic]~~' >> README.md
-          echo 'Java and JavaScript are not the same! Keep that in mind!' >> README.md
+          echo '<sub>Java and JavaScript are not the same! Keep that in mind!</sub>' >> README.md
           echo '### 🗄️Databases' >> README.md
           echo '- MariaDB / MySQL [advanced]' >> README.md
           echo '- PostgreSQL [beginner - advanced]' >> README.md
