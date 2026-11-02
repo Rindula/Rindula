@@ -7,7 +7,7 @@ My name is Sven Nolting. I'm a german developer at the age of 26 years (9608 day
 - Go [beginner]
 - JavaScript [advanced]
 - ~~Java [none - basic]~~
-Java and JavaScript are not the same! Keep that in mind!
+<sub>Java and JavaScript are not the same! Keep that in mind!</sub>
 ### 🗄️Databases
 - MariaDB / MySQL [advanced]
 - PostgreSQL [beginner - advanced]
