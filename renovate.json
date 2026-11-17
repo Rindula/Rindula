@@ -5,5 +5,5 @@
     "helpers:pinGitHubActionDigests",
     "mergeConfidence:all-badges",
     ":automergeAll"
-  ],
+  ]
 }
