@@ -9,7 +9,7 @@ jobs:
     name: Update README
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@a37ce9120846195fa4ece8f58b268e6043cb2f26 # v3
       - name: Create README
         run: |
           echo '### 👋 About Me' > README.md
@@ -43,7 +43,7 @@ jobs:
           echo '### 💸 Support me' >> README.md
           echo '[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U74OYFS)' >> README.md
       - name: Set up Python 3.8
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4
         with:
             python-version: 3.8
       - name: Fetch CV
@@ -53,6 +53,6 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           python app.py
       - name: Update README
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@a94899bca583c204427a224a7af87c02f9b325d5 # v9
         with:
           default_author: github_actions
